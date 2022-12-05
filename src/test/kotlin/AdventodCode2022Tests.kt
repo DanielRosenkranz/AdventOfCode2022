@@ -1,6 +1,7 @@
 import nl.roseit.adventofcode2022.Day1
 import nl.roseit.adventofcode2022.Day2
 import nl.roseit.adventofcode2022.Day3
+import nl.roseit.adventofcode2022.Day4
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -22,5 +23,11 @@ class AdventodCode2022Tests {
     fun Day3() {
         assertEquals(8493, Day3.getResultPart1() )
         assertEquals(2552, Day3.getResultPart2() )
+    }
+
+    @Test
+    fun Day4() {
+        assertEquals(605, Day4.getResultPart1() )
+        assertEquals(914, Day4.getResultPart2() )
     }
 }
